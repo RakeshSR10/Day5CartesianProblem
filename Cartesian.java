@@ -36,5 +36,14 @@ public class Cartesian
 			System.out.print("Equal");
 		else
 			System.err.print("Not equal");
+
+				System.out.print("Using compareTo = ");//using compareTo method
+		String s1=String.valueOf(length1);
+		String s2=String.valueOf(length2);
+
+		if(s1.compareTo(s2) == 0)
+			System.out.print("Equal");
+		else
+			System.out.print("Not Equal");
 	}
 }
