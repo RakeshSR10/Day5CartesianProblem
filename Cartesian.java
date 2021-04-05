@@ -31,5 +31,10 @@ public class Cartesian
 
 		double length2=Math.sqrt((x4-x3)^2 + (y4-y3)^2);
 		System.out.println(length2);
+
+		if(length1 == length2)//using Equal method
+			System.out.print("Equal");
+		else
+			System.err.print("Not equal");
 	}
 }
